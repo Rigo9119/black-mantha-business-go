@@ -6,7 +6,7 @@ type Business struct {
   Business_name string
   Food_type string[]
   Description string
-  Locations int[]
-  Menu int[]
-  Orders int[]
+  Locations []*Location
+  Menu []*Menu_item
+  Orders []*Order
 }

@@ -12,7 +12,7 @@ func irisNewApp() *iris.Application {
 	app := iris.New()
 
 	app.Get("/", func(ctx iris.Context) {
-		ctx.Text("Hello MIgue kun")
+		ctx.Text("Hello Migue kun")
 	})
 
 	return app
