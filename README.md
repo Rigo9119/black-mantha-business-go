@@ -7,7 +7,7 @@ development and could face major changes.
 ## First steps
 
 - Download the repo from [github](https://github.com/Rigo9119/black-mantha-business-go).
-- Install dependencies `go mod download`
+- Install dependencies `go get`
 - To run the project use `go run main.go`
 - Server will run on port [8080](http://localhost:8080)
 
