@@ -5,7 +5,7 @@ type MenuItem struct {
 	Created_at       int
 	Item_name        string
 	Item_description string
-	Item_price       []int
+	Item_price       Price
 }
 
 type Price struct {

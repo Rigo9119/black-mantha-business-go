@@ -1,6 +1,8 @@
 package appStatusTpes
 
 type DeliveryPersonStatus string
+type LocationStatus string
+type OrderStatus string
 
 const (
 	INACTIVE   DeliveryPersonStatus = "inactive"
@@ -8,14 +10,10 @@ const (
 	ON_THE_WAY DeliveryPersonStatus = "on_the_way"
 )
 
-type LocationStatus string
-
 const (
 	OPEN   LocationStatus = "open"
 	CLOSED LocationStatus = "closed"
 )
-
-type OrderStatus string
 
 const (
 	ACCEPTED        OrderStatus = "accepted"

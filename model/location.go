@@ -11,4 +11,5 @@ type Location struct {
 	Loation_name           string
 	Location_schedule      string
 	Location_delivery_team []int
+	Business_id            int
 }
